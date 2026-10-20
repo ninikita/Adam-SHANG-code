@@ -16,7 +16,6 @@ Run commands from the repository root, preferably in a fresh environment:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m unittest discover -s tests -v
 ```
 
 Smoke tests used Python 3.11, PyTorch 2.7.1, torchvision 0.22.0, NumPy 2.3.2,
@@ -48,7 +47,6 @@ short-budget checks below are functionality tests, not paper results.
 | `text8_grid_search.py`, `CIFAR_grid_search.py` | Preliminary search utilities |
 | `CIFAR_show.py` | Plot saved CIFAR checkpoints |
 | `legacy/` | Retired exploratory convex reformulations, not current paper experiments |
-| `tests/` | Small, offline CPU checks |
 
 ADOPT is not included: its implementation was absent from the supplied source
 folder, and stale references have been removed from maintained experiments.
