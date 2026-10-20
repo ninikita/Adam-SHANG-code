@@ -1,0 +1,10 @@
+# Install a compatible torch/torchvision pair for your hardware.
+numpy
+matplotlib
+torch
+torchvision
+requests
+Pillow
+
+# Optional acceleration for the long online stress test:
+# numba

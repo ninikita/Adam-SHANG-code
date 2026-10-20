@@ -1,0 +1,52 @@
+# Python, environments, editors, and operating-system files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+._*
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data and generated experiment outputs
+data/
+cifar/
+cifar-10-batches-py/
+cifar-100-python/
+text8
+text8.txt
+text8.zip
+Result/
+results/
+outputs/
+text8_grid_search_outputs/
+adam_shang_results*/
+reddi_*results*/
+CIFAR*-ResNet*_*/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.csv
+*.png
+*.pdf
+*.zip
+*.tar.gz
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
